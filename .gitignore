@@ -1,0 +1,114 @@
+# ==============================================================================
+# ICIR Research Repository .gitignore
+# Minimalist, reproducible research standards
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook & IPython
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+.ipython/
+
+# Large Model Weights, Checkpoints & Serialization Artifacts
+# Note: Model architectures are tracked in code; large weights belong in external object storage
+*.pt
+*.pth
+*.pwf
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+
+# Datasets & Heavy Experimental Data
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+*.tar.gz
+*.zip
+*.7z
+*.arrow
+*.parquet
+*.feather
+
+# Experiment Tracking & Logging
+runs/
+wandb/
+.neptune/
+mlruns/
+lightning_logs/
+*.log
+logs/
+
+# LaTeX build artifacts (for papers and technical reports)
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*-blx.bib
+
+# OS & Environment artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+
+# IDEs and Editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# Local environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
