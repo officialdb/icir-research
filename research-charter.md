@@ -108,3 +108,4 @@ Autonomous intelligence systems with continual learning capabilities inherently 
 ## 7. Charter Amendments & Versioning
 
 This Charter is an enduring, living document. Amendments may be proposed through formal pull requests accompanied by a detailed rationale. All modifications are logged in git history to maintain immutable provenance of ICIR’s founding philosophy.
+

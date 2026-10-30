@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ICIR Experiment Metrics Artifact Schema",
+  "description": "Standardized schema for empirical metrics produced by EXP-2026-001 upon execution.",
+  "type": "object",
+  "required": [
+    "experiment_id",
+    "timestamp_utc",
+    "environment",
+    "configuration",
+    "results"
+  ],
+  "properties": {
+    "experiment_id": {
+      "type": "string",
+      "example": "EXP-2026-001"
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "environment": {
+      "type": "object",
+      "properties": {
+        "device": { "type": "string" },
+        "gpu_name": { "type": "string" },
+        "gpu_memory_gb": { "type": "number" },
+        "torch_version": { "type": "string" },
+        "cuda_version": { "type": ["string", "null"] }
+      }
+    },
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "num_tasks": { "type": "integer" },
+        "input_dim": { "type": "integer" },
+        "hidden_dims": { "type": "array", "items": { "type": "integer" } },
+        "batch_size": { "type": "integer" },
+        "learning_rate": { "type": "number" },
+        "epochs_per_task": { "type": "integer" },
+        "seeds": { "type": "array", "items": { "type": "integer" } }
+      }
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "naive_sequential": {
+          "type": "object",
+          "properties": {
+            "A_T_mean": { "type": "number" },
+            "A_T_std": { "type": "number" },
+            "BWT_mean": { "type": "number" },
+            "BWT_std": { "type": "number" },
+            "FWT_mean": { "type": "number" },
+            "FWT_std": { "type": "number" },
+            "time_mean": { "type": "number" },
+            "individual_runs": { "type": "array" }
+          }
+        },
+        "joint_offline_oracle": {
+          "type": "object",
+          "properties": {
+            "A_T_mean": { "type": "number" },
+            "A_T_std": { "type": "number" },
+            "BWT_mean": { "type": "number" },
+            "BWT_std": { "type": "number" },
+            "time_mean": { "type": "number" },
+            "individual_runs": { "type": "array" }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -125,3 +125,4 @@ The programme advances along four concurrent, cross-fertilizing tracks:
 ## Progress Tracking Protocol
 
 This roadmap is reviewed quarterly. Updates, completed milestones, and schedule revisions must be recorded via git commits referencing this document, maintaining a transparent audit trail of ICIR's evolution.
+

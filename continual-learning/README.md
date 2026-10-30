@@ -93,3 +93,4 @@ continual-learning/
 1. **Task-Agnostic Boundary Detection:** Identifying when distribution shift occurs without explicit task labels or environmental oracle signals.
 2. **Online Single-Pass Continual Learning:** Learning under extreme streaming constraints where samples are presented exactly once with no mini-batch resampling.
 3. **Episodic Compression & Selective Replay:** Designing surprise-driven eviction policies for replay buffers to optimize memory efficiency under bounded storage.
+

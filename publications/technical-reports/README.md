@@ -21,3 +21,4 @@ Technical reports are placed in subdirectories formatted as:
 - `paper.md` (or LaTeX source directory)
 - `figures/` (vector diagrams and plots)
 - `biblio.bib` (complete bibliographic citations)
+

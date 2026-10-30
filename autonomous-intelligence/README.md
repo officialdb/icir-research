@@ -74,3 +74,4 @@ autonomous-intelligence/
 1. **Provable Invariant Verification:** How can we formally verify that an agent's policy will never violate safety constraints, even as its internal weights evolve via continual learning?
 2. **Cryptographic Memory Provenance:** Can we design tamper-evident, append-only Merkle-tree memory fabrics that enable rollback when memory poisoning is detected?
 3. **Metacognitive Introspection under Adversarial Pressure:** Can an agent detect when its own reasoning process has been compromised by an adversarial illusion?
+

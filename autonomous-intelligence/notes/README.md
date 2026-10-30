@@ -18,3 +18,4 @@
 ## Authoring Standards
 
 Follow [`templates/research-note-template.md`](../../templates/research-note-template.md). Notes on cyber-resilience must include formal threat models, attacker capabilities, failure modes, and mitigation verification protocols.
+

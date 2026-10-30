@@ -1,0 +1,45 @@
+# ==============================================================================
+# Institute for Cognitive Intelligence Research (ICIR)
+# Local Python Dependencies Specification
+# ==============================================================================
+#
+# ARCHITECTURAL NOTE FOR RESEARCHERS:
+# -----------------------------------
+# This requirements file is intended strictly for your LOCAL development
+# workstation environment (e.g., inside a local Python 3.11 virtual environment:
+# `python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`).
+#
+# It provides language server support, static type checking (Pylance/Pyright),
+# linting, offline CPU debugging, and Jupyter protocol communication in VS Code.
+#
+# DO NOT RUN `pip install -r requirements.txt` INSIDE GOOGLE COLAB:
+# Google Colab's hosted GPU runtime comes pre-configured with:
+#   - PyTorch 2.11.0+cu130 (with CUDA 13.0/cuDNN acceleration)
+#   - Pre-installed Torchvision, NumPy, Matplotlib, SciPy, Pandas
+#   - Hardware-optimized drivers for the NVIDIA Tesla T4 (14.56 GB VRAM)
+# Re-installing packages inside the Colab session may overwrite optimized CUDA
+# bindings, trigger unnecessary kernel restarts, or introduce version conflicts.
+# ==============================================================================
+
+# Interactive Computing & Jupyter Runtime (Local)
+ipykernel>=6.29.0
+jupyterlab>=4.1.0
+notebook>=7.1.0
+ipywidgets>=8.1.0
+
+# Scientific Computing & Deep Learning
+# (Local fallback/type definitions; Colab runtime supplies pre-built GPU builds)
+torch>=2.2.0
+torchvision>=0.17.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Experiment Tracking, Analysis & Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+pandas>=2.1.0
+
+# Configuration, Utilities & Reproducibility
+pyyaml>=6.0
+tqdm>=4.66.0
+

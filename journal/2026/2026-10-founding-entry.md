@@ -52,3 +52,4 @@ As an independent research initiative, ICIR will maintain:
 1. Establish formal definitions in `mathematical-foundations/` for the stability-plasticity tradeoff in gradient-based learners.
 2. Construct the benchmark harness in `experiments/benchmarks/` for evaluating continual learning algorithms across sequence-shift tasks.
 3. Complete the inaugural literature review decomposing recent developments in memory-augmented architectures and parameter-isolation methods.
+

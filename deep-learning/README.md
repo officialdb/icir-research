@@ -50,3 +50,4 @@ deep-learning/
 
 1. **Latent Space Plasticity:** Quantifying how the geometry of latent representations changes under continuous fine-tuning vs. isolated low-rank updates (e.g., LoRA, adapter modules).
 2. **State-Space Models for Persistent Context:** Evaluating the memory retention characteristics of Structured State-Space Models (e.g., S4, Mamba) over prolonged sequential tasks compared to quadratic attention.
+

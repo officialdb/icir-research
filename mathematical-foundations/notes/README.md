@@ -21,3 +21,4 @@ All documents in this directory must use the [`templates/research-note-template.
 - Every symbol must be defined explicitly.
 - Proof steps must be delineated and mathematically rigorous.
 - Connect abstract theoretical claims to algorithmic implications for the ICIR codebase.
+

@@ -18,3 +18,4 @@
 ## Authoring Protocol
 
 Notes must adhere to [`templates/research-note-template.md`](../../templates/research-note-template.md). Ensure that empirical proposals link directly to registered experiments in [`experiments/register.md`](../../experiments/register.md).
+

@@ -72,3 +72,4 @@ mathematical-foundations/
 1. **Subspace Orthogonality Bounds:** Can we establish provable upper bounds on the capacity of neural network weight spaces to accommodate $T$ non-overlapping task representations under bounded parameter budgets?
 2. **Non-Stationary Bayesian Drift:** How does a recursive Bayesian estimator degrade when transition probabilities between task distributions violate ergodicity?
 3. **Lyapunov Stability of Recurrent Cognitive Loops:** What are the convergence guarantees for recurrent dual-process cognitive arbitration networks under noisy sensory inputs?
+

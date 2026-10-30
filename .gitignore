@@ -73,6 +73,8 @@ mlruns/
 lightning_logs/
 *.log
 logs/
+!experiments/**/logs/
+!experiments/**/.gitkeep
 
 # LaTeX build artifacts (for papers and technical reports)
 *.aux
@@ -112,3 +114,4 @@ Desktop.ini
 !.env.example
 *.pem
 *.key
+

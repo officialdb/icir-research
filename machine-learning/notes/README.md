@@ -17,3 +17,4 @@
 ## Usage Instructions
 
 All notes in this section follow [`templates/research-note-template.md`](../../templates/research-note-template.md). Focus on formal statistical formulations, proving bounds, or establishing baseline guarantees for learning algorithms prior to deep neural parameterization.
+

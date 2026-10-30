@@ -85,3 +85,4 @@ Provide a concise 3–4 sentence distillation answering:
 1. **Reproduction Target:** Is this a candidate for experimental verification in `experiments/`?
 2. **Open Research Question:** What did the authors leave unanswered that ICIR can investigate?
 3. **Cross-References:** Which papers in `literature-reviews/` does this build on or contradict?
+

@@ -126,8 +126,13 @@ icir-research/
 │
 ├── experiments/                   # Empirical testbed and verification suite
 │   ├── README.md                  # Experimental protocol, hardware baselines, seed policies
+│   ├── WORKFLOW.md                # Local-to-Google-Colab research workflow & Git synchronization
 │   ├── register.md                # Master immutable log of all executed experiments
-│   └── benchmarks/                # Task definitions and standard evaluation suites
+│   ├── requirements.txt           # Local Python environment dependencies
+│   ├── benchmarks/                # Task definitions and standard evaluation suites
+│   ├── protocols/                 # Formal experiment protocols and reports (EXP-*)
+│   ├── notebooks/                 # Executable Jupyter experiment notebooks
+│   └── outputs/                   # Structured metric JSONs, figures, and execution logs
 │
 ├── journal/                       # Chronological research entries and investigation logs
 │   ├── README.md                  # Journaling standard, logging criteria, and entry index
@@ -167,7 +172,8 @@ ICIR follows an uncompromising commitment to empirical reproducibility and intel
 1. Read the [Research Charter](research-charter.md) to understand our operational philosophy and scientific ethos.
 2. Examine the [Research Roadmap (2026–2031)](research-roadmap.md) to review planned milestones and active thematic lines.
 3. Consult the [Experiment Register](experiments/register.md) and [Research Journal](journal/README.md) to follow active investigations.
-4. Review [CONTRIBUTING.md](CONTRIBUTING.md) if you are interested in submitting critiques, reproducing experiments, or collaborating.
+4. Review the [Local-to-Google-Colab Workflow](experiments/WORKFLOW.md) for running GPU experiments with VS Code.
+5. Review [CONTRIBUTING.md](CONTRIBUTING.md) if you are interested in submitting critiques, reproducing experiments, or collaborating.
 
 ---
 
@@ -193,3 +199,4 @@ If you reference notes, technical reports, or protocols from this repository, pl
 Unless otherwise noted:
 - **Documentation, Technical Reports, and Notes:** Licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE).
 - **Code, Benchmarks, and Scripts:** Intended for distribution under the [Apache-2.0 License](LICENSE).
+

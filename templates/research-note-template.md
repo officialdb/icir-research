@@ -69,3 +69,4 @@ $$\nabla_\theta \mathcal{L}_{\text{total}}(\theta) = \nabla_\theta \mathcal{L}_t
 
 - [1] Author, A. (Year). *Foundations of Statistical Learning*. Publisher.
 - [2] Author, B. & Coauthor, C. (Year). "Paper Title." *Journal Name*, Volume(Issue), Pages.
+

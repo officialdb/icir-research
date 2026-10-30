@@ -56,3 +56,4 @@ To evaluate cognitive architectures and continual learning mechanisms on equitab
 1. **Synthetic Generation:** Where possible, benchmark generators should generate non-stationary streams programmatically to eliminate multi-gigabyte dataset downloads.
 2. **Deterministic Task Splits:** All class splits and permutation orders must be deterministically generated using the master seeds defined in [`experiments/README.md`](../experiments/README.md).
 3. **Zero Data Leakage:** Validation splits must be strictly segregated; future task data must never be visible to normalizers or data loaders during task $t$.
+

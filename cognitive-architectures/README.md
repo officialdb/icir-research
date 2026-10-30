@@ -71,3 +71,4 @@ cognitive-architectures/
 1. **Differentiable Working Memory Constraints:** How does bounding working memory capacity force an artificial agent to perform optimal conceptual compression?
 2. **Episodic-to-Semantic Transfer Dynamics:** Formalizing the architectural pipeline through which raw episodic memory traces are distilled into structured semantic knowledge graphs.
 3. **Metacognitive Gating Protocols:** Designing mathematical thresholding functions that determine when an agent should halt intuitive generation and initiate deliberative search.
+

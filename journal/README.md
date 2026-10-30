@@ -21,6 +21,7 @@ The **ICIR Research Journal** serves as an intellectual log of the initiative. S
 | Entry ID | Date | Title | Author | Primary Theme |
 | :--- | :--- | :--- | :--- | :--- |
 | [`JRN-2026-10-01`](2026/2026-10-founding-entry.md) | 2026-10-30 | *Founding Rationale: Continual Plasticity & Autonomous Intelligence* | Chilaka Chigozie Micheal | Institutional Genesis |
+| [`JRN-2026-10-02`](2026/2026-10-30-colab-workflow-setup.md) | 2026-10-30 | *Local-to-Google-Colab Research Workflow & Staging EXP-2026-001* | Chilaka Chigozie Micheal | Infrastructure & Continual Baseline |
 
 ---
 
@@ -29,3 +30,4 @@ The **ICIR Research Journal** serves as an intellectual log of the initiative. S
 1. Create a markdown file inside the corresponding year directory: `journal/YYYY/YYYY-MM-DD-short-slug.md`.
 2. Format the entry using standard front-matter metadata (Date, Author, Subject, Tags).
 3. Update the master table above in this index.
+

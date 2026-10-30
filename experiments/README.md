@@ -15,11 +15,21 @@ Empirical investigation at ICIR is governed by strict scientific reproducibility
 
 ```
 experiments/
-├── README.md               # This document: protocols, rules, and hardware guidelines
+├── README.md               # This document: protocols, rules, and framework standards
+├── WORKFLOW.md             # Local-to-Google-Colab research workflow & Git synchronization
 ├── register.md             # Immutable tabular ledger of all experiments
+├── requirements.txt        # Local virtual environment dependencies (symlink to root)
 ├── benchmarks/             # Standard task definitions and dataset generators
 │   └── README.md           # Benchmark catalog (Split-CIFAR, Permuted MNIST, GridWorld, etc.)
-└── protocols/              # Documented protocols and empirical reports (EXP-*)
+├── protocols/              # Documented protocols and empirical reports (EXP-*)
+│   └── EXP-2026-001-protocol.md
+├── notebooks/              # Clean, reproducible Jupyter notebooks
+│   └── EXP-2026-001.ipynb
+└── outputs/                # Structured experiment outputs, logs, metrics, figures
+    └── EXP-2026-001/
+        ├── metrics/        # JSON & CSV metrics records
+        ├── figures/        # High-resolution visualization artifacts
+        └── logs/           # Execution logs
 ```
 
 ---
@@ -66,3 +76,15 @@ If an experimental hypothesis fails or results are inferior to established basel
 
 ### V. Version Control & Git Pinning
 The exact git commit hash representing the codebase state at execution must be recorded in the experiment register and protocol sheet.
+
+---
+
+## 4. Local-to-Google-Colab Research Workflow
+
+ICIR utilizes a hybrid operational pipeline connecting local desktop VS Code with remote Google Colab hosted GPU runtimes (NVIDIA Tesla T4, 14.56 GB VRAM, PyTorch 2.11.0+cu130):
+- **Local Control:** All code, notebooks, and empirical protocols are authored, edited, and tracked locally in Git at `/home/official/projects/icir-research`.
+- **Remote Acceleration:** Heavy matrix operations and gradient updates execute seamlessly on the remote Colab GPU kernel.
+- **Dependency Isolation:** Local environment dependencies are specified in `requirements.txt`. Pre-configured Colab runtime packages are preserved without invasive pip installations.
+- **Workflow Guide:** Consult [`experiments/WORKFLOW.md`](WORKFLOW.md) for full execution, artifact synchronization, and Git version-control procedures.
+
+

@@ -117,3 +117,4 @@ parameters:
 - **Core Takeaway:** Concise 2–3 sentence synthesis of the findings.
 - **Follow-up Inquiries:** What subsequent experiment or theoretical refinement does this result demand?
 - **Register Update:** Confirmed logged in [`experiments/register.md`](../experiments/register.md).
+

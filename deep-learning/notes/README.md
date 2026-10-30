@@ -17,3 +17,4 @@
 ## Contribution Criteria
 
 Follow [`templates/research-note-template.md`](../../templates/research-note-template.md). Ensure that all layer formulations specify exact input/output tensor dimensions and formal loss functions.
+

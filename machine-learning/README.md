@@ -50,3 +50,4 @@ machine-learning/
 
 1. **Non-Stationary Regret Bounds:** Extending Follow-the-Regularized-Leader (FTRL) algorithms to piece-wise stationary environments with discrete distribution shifts.
 2. **Inductive Bias Quantifiers:** Formulating metric spaces to measure the geometric alignment between a model's inductive bias and task structures in continual reinforcement settings.
+

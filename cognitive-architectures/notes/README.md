@@ -18,3 +18,4 @@
 ## Authoring Standards
 
 Follow [`templates/research-note-template.md`](../../templates/research-note-template.md). Blueprints must include explicit block diagrams, interface boundaries, and data flow specifications.
+

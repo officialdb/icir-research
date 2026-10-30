@@ -18,3 +18,4 @@
 ## Authoring Instructions
 
 Create new reviews as `literature-reviews/reviews/REV-YYYY-NNN-slug.md` utilizing the standard [`templates/literature-review-template.md`](../../templates/literature-review-template.md). Update the master table above upon review initiation.
+
